@@ -1,7 +1,7 @@
 #!/bin/sh
 
 aws ec2 run-instances \
-    --count 5 \
+    --count 2 \
     --image-id ami-a7dd02cc \
     --subnet-id <subnet-id-placeholder> \
     --security-group-ids <sg-id-placeholder> \

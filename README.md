@@ -2,9 +2,9 @@
 
 ### 1. Preparing AWS
 
-  0. [Creating SSH Key](/1/1.md)
-  0. [Adding new VPC](/1/2.md)
-  0. [Creating new Security Group](1/3.md)
+  0. [Creating SSH Key](/chapter-1/1.md)
+  0. [Adding new VPC](/chapter-1/2.md)
+  0. [Creating new Security Group](/chapter-1/3.md)
   
 ### 2. Establish ETCD
 

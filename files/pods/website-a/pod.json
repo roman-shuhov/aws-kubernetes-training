@@ -30,7 +30,6 @@
             "initialDelaySeconds": 20,
             "timeoutSeconds": 2,
             "httpGet": {
-              "host": "www.website.com",
               "path": "/watcher.html",
               "port": 80
             }
