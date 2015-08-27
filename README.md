@@ -1,5 +1,13 @@
 # Kubernetes Training
 
+### Introduction
+
+The purpose of this training is to show how quick and easy you can create Kubernetes cluster. At the same time, it's not recommended to use this configs for your production applications.
+
+### Disclaimer
+
+Please consult with your doctor before starting this course. Excessive usage may cause eye-bleeding and caffeine overdose.  
+
 ### 1. Preparing AWS
 
   0. [Creating SSH Key](/chapter-1/1.md)
@@ -16,17 +24,11 @@
 
   0. Creating master instance
   0. Add nodes/slaves/minions to the cluster
-  0. Description of Service A and Service B](/3/3.md)
-
-### 3.1 Creating K8s master. **ADVANCED** way
-
-  0. Setup fleet
-  0. Setup flannel
-  0. Start K8s services
+  0. Description of Service A and Service B
 
 ### 4. Creating AWS Load Balancer
 
-  0. Creating load balancers for Service A and Service B
+  0. Creating Load Balancers for Service A and Service B
   
 ### 5. Launch Service A
 
@@ -41,7 +43,7 @@
   
 ### 7. K8s Service resize and update
 
-  0. Updating source code
-  0. Resize
+  0. Updating source code and rebuilding docker images
+  0. Scaling
   0. Rolling update
  
