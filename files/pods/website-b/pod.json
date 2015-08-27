@@ -2,17 +2,17 @@
   "kind": "ReplicationController",
   "apiVersion": "v1",
   "metadata": {
-    "name": "website-a-1-0-0",
-    "labels": {"name": "website-a", "version": "v1.0.0"}
+    "name": "website-b-1-0-0",
+    "labels": {"name": "website-b", "version": "v1.0.0"}
   },
   "spec"  : {
     "replicas": 2,
-    "selector": {"name": "website-a", "version": "v1.0.0"},
+    "selector": {"name": "website-b", "version": "v1.0.0"},
     "template": {
       "spec": {
         "containers": [{
-          "name": "website-a-php",
-          "image": "termit/training-website-php:website-a",
+          "name": "website-b-php",
+          "image": "termit/training-website-php:website-b",
           "ports": [{"containerPort": 9001}, {"containerPort": 9000}],
           "imagePullPolicy": "Always",
           "resources": {
@@ -22,8 +22,8 @@
             }
           }
         }, {
-          "name": "website-a-apache",
-          "image": "termit/training-website-apache:website-a",
+          "name": "website-b-apache",
+          "image": "termit/training-website-bpache:website-b",
           "livenessProbe": {
             "enabled": true,
             "type": "http",
@@ -46,7 +46,7 @@
       },
       "metadata": {
         "labels": {
-          "name": "website-a",
+          "name": "website-b",
           "version": "v1.0.0"
         }
       }

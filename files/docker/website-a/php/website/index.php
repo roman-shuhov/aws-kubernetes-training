@@ -1,3 +1,3 @@
 <?php
 
-echo 'Kurva, Hello World!';
+echo 'AAAAAAAA';

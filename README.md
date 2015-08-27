@@ -18,12 +18,12 @@ Please consult with your doctor before starting this course. Excessive usage may
 ### 2. Establish ETCD
 
   0. [Launch single ETCD instance](/chapter-2/1.md)
-  0. [Verify setup](/chapter-2/2.md)
+  0. [Verify ETCD setup](/chapter-2/2.md)
 
 ### 3. Creating K8s cluster. Easy way
 
-  0. Creating master instance
-  0. Add nodes/slaves/minions to the cluster
+  0. [Creating master instance](/chapter-3/1.md)
+  0. [Add nodes/slaves/minions to the cluster](/chapter-3/2.md)
   0. Description of Service A and Service B
 
 ### 4. Creating AWS Load Balancer
