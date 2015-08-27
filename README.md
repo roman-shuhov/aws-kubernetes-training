@@ -13,12 +13,12 @@ Please consult with your doctor before starting this course. Excessive usage may
   0. [Creating SSH Key](/chapter-1/1.md)
   0. [Adding new VPC](/chapter-1/2.md)
   0. [Creating new Security Group](/chapter-1/3.md)
+  0. [Configuring AWS console tool](/chapter-1/4.md)
   
 ### 2. Establish ETCD
 
-  0. Launch single ETCD instance
-  0. Verify setup
-  0. **ADVANCED** Creating ETCD cluster
+  0. [Launch single ETCD instance](/chapter-2/1.md)
+  0. [Verify setup](/chapter-2/2.md)
 
 ### 3. Creating K8s cluster. Easy way
 
