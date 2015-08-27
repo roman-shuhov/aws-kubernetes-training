@@ -23,7 +23,7 @@
           }
         }, {
           "name": "website-b-apache",
-          "image": "termit/training-website-bpache:website-b",
+          "image": "termit/training-website-apache:website-b",
           "livenessProbe": {
             "enabled": true,
             "type": "http",
